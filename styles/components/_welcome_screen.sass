@@ -1,0 +1,63 @@
+.basket-container
+    height: 58vh
+    width: 100vw
+    background-color: $primary-background
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    flex-direction: column
+    .basket
+        max-width: 425px 
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        flex-direction: column
+        .drops
+            width: 100%
+            max-width: 425px
+            display: flex
+            justify-content: flex-end
+            img
+                position: absolute
+        img
+            margin: 3px 0
+            max-width: 80vw
+            &.shadow
+                margin-bottom: 30px
+.slogan
+    width: 88vw
+    height: 42vh
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    .text
+        width: 100%
+        text-align: left
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        margin: 58px 0
+        h3
+            width: 87%
+            font-size: $default_font_size * 1.25
+            font-weight: bold
+            letter-spacing: 0px
+            margin: 0 0 8px 0
+        p
+            width: 87%
+            margin: 0
+        [type="text"]
+            background-color: $tertiary_background
+            outline: none
+            border: none
+            border-radius: 10px
+            padding: 14px 24px
+    button
+        width: 100%
+        background-color: $primary_background
+        border: none
+        font-weight: bold
+        padding: 14px 0 14px 0
+        border-radius: 10px
+        color: $secondary_background
